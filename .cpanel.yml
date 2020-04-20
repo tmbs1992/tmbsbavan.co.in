@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/e2zkna4vbyl0/public_html/tmbsbavan.co.in/
+    - /bin/cp -R tmbsbavan.co.in $DEPLOYPATH
