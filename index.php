@@ -99,18 +99,18 @@
                         <li class="dropdown submenu">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services</a>
                             <ul class="dropdown-menu other_dropdwn">
-                                <li><a href="services.php">Matrimonial</a></li>
-								<li><a href="services-2.php">Astrology</a></li>
-								<li><a href="services-2.php">Services</a></li>
+                                <li><a href="#">Matrimonial</a></li>
+								<li><a href="#">Newsletter</a></li>
+								<li><a href="#">Services</a></li>
                             </ul>
                         </li>
-                        <li><a href="#">Gallery</a></li>
+                        <li><a href="gallery.php">Gallery</a></li>
                         <li class="dropdown submenu">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Membership</a>
                             <ul class="dropdown-menu">
                                 <li><a href="Register.php">Registration</a></li>
-                                <li><a href="blog-2.php">Events/Registration </a></li>
-								<li><a href="blog-2.php">Online Donation</a></li>
+                                <li><a href="#">Events</a></li>
+								<li><a href="#">Online Donation</a></li>
                             </ul>
                         </li>
                         <li><a href="contact.php">Contact</a></li>
@@ -487,9 +487,9 @@
                     <h6>Success Events</h6>
                 </div>
                 <div class="col-md-3 col-sm-6 p0 completed">
-                    <i class="fa fa-home" aria-hidden="true"></i>
-                    <span class="counter">230</span>
-                    <h6>HOUSE RENOVATIONS</h6>
+                    <i class="fa fa-smile-o" aria-hidden="true"></i>
+                    <span class="counter">4.5</span>
+                    <h6>User Experience</h6>
                 </div>
                 <div class="col-md-3 col-sm-6 p0 completed">
                     <i class="fa fa-group" aria-hidden="true"></i>
@@ -611,12 +611,19 @@
         </div>
         <div class="featured_gallery">
             <div class="col-md-3 col-sm-4 col-xs-6 gallery_iner p0">
-                <img src="images/gallery/gl1.jpg" alt="">
+                <img src="images/gallery/gl3.jpg" alt="">
                 <div class="gallery_hover">
-                    <h4> Upnayan Sanskar </h4>
+                    <h4>Yagna Havan Puja </h4>
                     <a href="#">Click Here</a>
                 </div>
-            </div>
+            </div>		
+            <div class="col-md-3 col-sm-4 col-xs-6 gallery_iner p0">
+                <img src="images/gallery/gl8.jpg" alt="">
+                <div class="gallery_hover">
+                    <h4>Vedbhawan</h4>
+                    <a href="#">Click Here</a>
+                </div>
+            </div>			
             <div class="col-md-3 col-sm-4 col-xs-6 gallery_iner p0">
                 <img src="images/gallery/gl2.jpg" alt="">
                 <div class="gallery_hover">
@@ -625,19 +632,20 @@
                 </div>
             </div>
             <div class="col-md-3 col-sm-4 col-xs-6 gallery_iner p0">
-                <img src="images/gallery/gl3.jpg" alt="">
+                <img src="images/gallery/gl7.jpg" alt="">
                 <div class="gallery_hover">
-                    <h4>Yagna Havan Puja </h4>
+                    <h4>Karmakand Services</h4>
                     <a href="#">Click Here</a>
                 </div>
-            </div>
+            </div>			
             <div class="col-md-3 col-sm-4 col-xs-6 gallery_iner p0">
-                <img src="images/gallery/gl4.png" alt="">
+                <img src="images/gallery/gl1.jpg" alt="">
                 <div class="gallery_hover">
-                    <h4>Brahmin Business</h4>
+                    <h4> Upnayan Sanskar </h4>
                     <a href="#">Click Here</a>
                 </div>
             </div>
+		
             <div class="col-md-3 col-sm-4 col-xs-6 gallery_iner p0">
                 <img src="images/gallery/gl5.jpg" alt="">
                 <div class="gallery_hover">
@@ -653,19 +661,13 @@
                 </div>
             </div>
             <div class="col-md-3 col-sm-4 col-xs-6 gallery_iner p0">
-                <img src="images/gallery/gl7.jpg" alt="">
+                <img src="images/gallery/gl4.png" alt="">
                 <div class="gallery_hover">
-                    <h4>Karmakand Services</h4>
+                    <h4>Brahmin Business</h4>
                     <a href="#">Click Here</a>
                 </div>
             </div>
-            <div class="col-md-3 col-sm-4 col-xs-6 gallery_iner p0">
-                <img src="images/gallery/gl8.jpg" alt="">
-                <div class="gallery_hover">
-                    <h4>Vedbhawan</h4>
-                    <a href="#">Click Here</a>
-                </div>
-            </div>
+
         </div>
     </section>
     <!-- End Our Featured Works Area -->

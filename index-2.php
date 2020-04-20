@@ -55,36 +55,35 @@
         </section>
         <!-- End Top Header_Area -->
 
-        <!-- Header_Area -->
-        <nav class="navbar navbar-default header_aera header_aera_tow" id="main_navbar">
-            <div class="container">
-                <!-- searchForm -->
-                <div class="searchForm">
-                    <form action="#" class="row m0">
-                        <div class="input-group">
-                            <span class="input-group-addon"><i class="fa fa-search"></i></span>
-                            <input type="search" name="search" class="form-control" placeholder="Type & Hit Enter">
-                            <span class="input-group-addon form_hide"><i class="fa fa-times"></i></span>
-                        </div>
-                    </form>
-                </div><!-- End searchForm -->
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar_right_fulid">
-                    <div class="col-md-2 p0">
-                        <div class="navbar-header">
-                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#min_navbar">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            </button>
-                            <a class="navbar-brand" href="index.php"><img src="images/logo.jpg" alt=""></a>
-                        </div>
+  	<!-- Header_Area -->
+    <nav class="navbar navbar-default header_aera" id="main_navbar">
+        <div class="container">
+            <!-- searchForm -->
+            <div class="searchForm">
+                <form action="#" class="row m0">
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="fa fa-search"></i></span>
+                        <input type="search" name="search" class="form-control" placeholder="Type & Hit Enter">
+                        <span class="input-group-addon form_hide"><i class="fa fa-times"></i></span>
                     </div>
+                </form>
+            </div><!-- End searchForm -->
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="col-md-2 p0">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#min_navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.php"><img src="images/logo.jpg" alt=""></a>
+                </div>
+            </div>
 
-                    <!-- Collect the nav links, forms, and other content for toggling -->
-                    <div class="col-md-10 p0">
-                      <div class="collapse navbar-collapse" id="min_navbar">
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="col-md-10 p0">
+                     <div class="collapse navbar-collapse" id="min_navbar">
                     <ul class="nav navbar-nav navbar-right">
                        <li><a href="index.php">Home</a></li>
 					   <li><a href="about.php">About Us</a></li>
@@ -92,29 +91,28 @@
                         <li class="dropdown submenu">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services</a>
                             <ul class="dropdown-menu other_dropdwn">
-                                <li><a href="services.php">Matrimonial</a></li>
-								<li><a href="services-2.php">Astrology</a></li>
-								<li><a href="services-2.php">Services</a></li>
+                                <li><a href="#">Matrimonial</a></li>
+								<li><a href="#">Newsletter</a></li>
+								<li><a href="#">Services</a></li>
                             </ul>
                         </li>
-                        <li><a href="#">Gallery</a></li>
+                        <li><a href="gallery.php">Gallery</a></li>
                         <li class="dropdown submenu">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Membership</a>
                             <ul class="dropdown-menu">
                                 <li><a href="Register.php">Registration</a></li>
-                                <li><a href="blog-2.php">Events/Registration </a></li>
-								<li><a href="blog-2.php">Online Donation</a></li>
+                                <li><a href="#">Events</a></li>
+								<li><a href="#">Online Donation</a></li>
                             </ul>
                         </li>
                         <li><a href="contact.php">Contact</a></li>
                         <li><a href="#" class="nav_searchFrom"><i class="fa fa-search"></i></a></li>
                     </ul>
                 </div><!-- /.navbar-collapse -->
-                    </div>
-                </div>
-            </div><!-- /.container -->
-        </nav>
-        <!-- End Header_Area -->
+            </div>
+        </div><!-- /.container -->
+    </nav>
+	<!-- End Header_Area -->
     </header>
 
     <!-- Slider area -->
@@ -706,8 +704,9 @@
                 <div class="col-md-3 col-sm-6 footer_about">
                     <h2>ABOUT OUR Community</h2>
                     <img src="images/footer-logo.png" alt="">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    <ul class="socail_icon">
+                    <p>To Promote and Preserve Our Cuiture, Heritage,Language, Social and Cultural Awareness By
+Providing a Digital Platform to Our tmbsbavan community.</p>					
+						<ul class="socail_icon">
                         <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                         <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
                         <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
