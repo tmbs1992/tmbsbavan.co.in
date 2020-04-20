@@ -262,7 +262,7 @@
             </div>
             <div class="feature_row row">
                 <div class="col-md-6 feature_img">
-                    <img src="images/Top.jpeg" alt="">
+                    <img src="images/top.jpg" alt="">
                 </div>
                 <div class="col-md-6 feature_content">
                   
