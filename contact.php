@@ -80,7 +80,7 @@
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="col-md-10 p0">
-                      <div class="collapse navbar-collapse" id="min_navbar">
+                     <div class="collapse navbar-collapse" id="min_navbar">
                     <ul class="nav navbar-nav navbar-right">
                        <li><a href="index.php">Home</a></li>
 					   <li><a href="about.php">About Us</a></li>
@@ -88,18 +88,18 @@
                         <li class="dropdown submenu">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services</a>
                             <ul class="dropdown-menu other_dropdwn">
-                                <li><a href="services.php">Matrimonial</a></li>
-								<li><a href="services-2.php">Astrology</a></li>
-								<li><a href="services-2.php">Services</a></li>
+                                <li><a href="#">Matrimonial</a></li>
+								<li><a href="#">Newsletter</a></li>
+								<li><a href="#">Services</a></li>
                             </ul>
                         </li>
-                        <li><a href="#">Gallery</a></li>
+                        <li><a href="gallery.php">Gallery</a></li>
                         <li class="dropdown submenu">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Membership</a>
                             <ul class="dropdown-menu">
                                 <li><a href="Register.php">Registration</a></li>
-                                <li><a href="blog-2.php">Events/Registration </a></li>
-								<li><a href="blog-2.php">Online Donation</a></li>
+                                <li><a href="#">Events</a></li>
+								<li><a href="#">Online Donation</a></li>
                             </ul>
                         </li>
                         <li><a href="contact.php">Contact</a></li>
@@ -162,8 +162,9 @@
                 <div class="col-md-3 col-sm-6 footer_about">
                     <h2>ABOUT OUR Community</h2>
                     <img src="images/footer-logo.png" alt="">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    <ul class="socail_icon">
+                    <p>To Promote and Preserve Our Cuiture, Heritage,Language, Social and Cultural Awareness By
+Providing a Digital Platform to Our tmbsbavan community.</p>					
+						<ul class="socail_icon">
                         <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                         <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
                         <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
