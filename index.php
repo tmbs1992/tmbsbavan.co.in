@@ -21,18 +21,9 @@
 	<link rel="stylesheet" type="text/css" href="vendors/owl_carousel/owl.carousel.css" media="all">
 	<!-- comment_area-->
 	<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
-
-	
-		<!-- ads form JS-->
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-	
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-	
-	
-   <!--Theme Styles CSS-->
+    <!--Theme Styles CSS-->
 	<link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
+
 
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -888,7 +879,7 @@
 													</div>
 													<div class="form-gp">
 														<label class="control-label">Upload_Image:</label>
-														<input type="file" name="image_location" id="file"/ required>
+														<input type="file" name="image_location" id="file"/  required>
 														<span style="color:red">* Only allowed jpg, jpeg, gif, png, svg and max size is 2 MB.*</span><br/><br/>
 														<p align="center"><input type="checkbox" required> I accept the <a href="term.php"> Terms and Conditions</a>.* </p>
 													</div>	
@@ -1094,6 +1085,7 @@ document.write(" Copyright 2020 Tmbsbavan Designed by Vishal Joshi. All rights r
     <script src="js/model.js"></script>
 	<!-- validationfile -->
     <script src="js/validationfile.js"></script>
+
 	
 </body>
 </html>
