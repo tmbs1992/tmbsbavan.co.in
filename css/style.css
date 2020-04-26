@@ -31,6 +31,7 @@ This files contents are outlined below.
     20. Footer
     21. Responsive
 	22. Click Ads Form 
+	23. registerImg
 
 
 ----------------------------------------------------*/
@@ -2021,8 +2022,9 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   height: 50px;
   padding-left: 15px;
   width: 100%;
-  color: #d3dadf;
+  color: #000000;
   margin-bottom: 20px;
+  
 }
 .all_contact_info .contact_row .send_message .contact_box .input_box.placeholder {
   color: #d3dadf;
@@ -2830,6 +2832,9 @@ input[type=submit]:hover {
 
 
 /* -- End our Click Ads Form -- */
+
+
+
 
 
 /*--------------------------------------------------*/

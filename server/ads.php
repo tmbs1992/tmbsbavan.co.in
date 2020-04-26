@@ -22,7 +22,7 @@ $query->execute();
 $lastInsertId = $dbh->lastInsertId();
 if($lastInsertId)
 {
-echo"<script>alert('Thank you for contacting us. We will be in touch with you very soon.');
+echo"<script>alert('Good Job! Registration Successful');
 		  window.location.href = '../index.php';</script>";
 }
 else 
