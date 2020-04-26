@@ -864,7 +864,7 @@
 													<button type="button" class="close" data-dismiss="modal">&times;</button>		
 												</div>
 												<div class="modal-body">   
-													<h1 style="color:red"  align="center"> SIGN UP </h1>	<br/>											
+													<h1 style="color:red"  align="center"> SIGN UP </h1><br/>											
 													<div class="form-group">
 														<label class="control-label">Name:</label>
 														<input type="text" name="first_name" maxlength="50"  pattern="[a-zA-Z]+" class="form-control" required>

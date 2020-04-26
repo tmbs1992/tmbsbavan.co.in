@@ -116,7 +116,7 @@
         <div class="container">
             <div class="row m0 blog_row">
                 <div class="col-sm-8 main_blog">
-				<h2 align="center">Free Membership</h2>
+				<h2 style="color:red"  align="center">Membership</h2>
 					<div class="table">
 					<!-- Form---->		
 						<form method="post" action="./server/process.php" >
@@ -125,7 +125,7 @@
       <label for="fname">First Name</label>
     </div>
     <div class="col-75">
-      <input type="text" id="fname" name="first_name" placeholder="Your first name.." maxlength="50" size="30" pattern="[a-zA-Z]+" required>
+      <input type="text" id="fname" name="first_name" placeholder="John" maxlength="50" size="30" pattern="[a-zA-Z]+" title="First Name should only contain letters."required>
     </div>
   </div>
     <div class="row">
@@ -133,7 +133,7 @@
       <label for="lname">Last Name</label>
     </div>
     <div class="col-75">
-      <input type="text" id="lname" name="last_name" placeholder="Your last name.." maxlength="50" size="30" pattern="[a-zA-Z]+"  required>
+      <input type="text" id="lname" name="last_name" placeholder="kenny" maxlength="50" size="30" pattern="[a-zA-Z]+" title="last Name should only contain letters." required>
     </div>
   </div>
     <div class="row">
@@ -324,7 +324,7 @@
       <label for="bday">Birthdate</label>
     </div>
     <div class="col-75">
-      <input type="text" id="bday" name="Birth_date" required pattern="\d{4}-\d{2}-\d{2}" placeholder="YYYY-MM-DD">
+      <input type="text" id="bday" name="Birth_date" required pattern="\d{4}-\d{2}-\d{2}" placeholder="YYYY-MM-DD" title="Birthdate should only contain only number.">
     </div>
   </div>
     <div class="row">
@@ -332,7 +332,7 @@
       <label for="email">Email</label>
     </div>
     <div class="col-75">
-      <input type="text" id="email" name="email" placeholder="Your Email.." maxlength="50" size="30" pattern="[^ @]*@[^ @]*" required>
+      <input type="text" id="email" name="email" placeholder="Kenny@gmail.com" maxlength="50" size="30" pattern="[^ @]*@[^ @]*" title="Please include an'@' in the email address" required>
     </div>
   </div>
       <div class="row">
@@ -340,7 +340,7 @@
       <label for="Phone">Password</label>
     </div>
     <div class="col-75">
-      <input type="text" id="password" name="password" placeholder="Use one number,one uppercase and lowercase letter, and at least 8 or more characters" maxlength="12" size="30" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required>
+      <input type="text" id="password" name="password" placeholder="Use one number,one uppercase and lowercase letter, and at least 8 or more characters" title="Use one number,one uppercase and lowercase letter, and at least 8 or more characters" maxlength="12" size="30" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required>
     </div>
   </div>
     <div class="row">
@@ -348,7 +348,7 @@
       <label for="Phone">Phone</label>
     </div>
     <div class="col-75">
-      <input type="text" id="Phone" name="Phone" placeholder="Your Phone Number.." maxlength="10" size="30" pattern="[0-9]{10}" required>
+      <input type="text" id="Phone" name="Phone" placeholder="Your Phone Number.." title="Phone Number should only contain Number." maxlength="10" size="30" pattern="[0-9]{10}" required>
     </div>
   </div>
     <div class="row">
@@ -356,7 +356,7 @@
       <label for="Village">Village</label>
     </div>
     <div class="col-75">
-      <input type="text" id="Village" name="Village" placeholder="Your Village name.." required>
+      <input type="text" id="Village" name="Village" placeholder="Your Village name.." maxlength="50" size="30" pattern="[a-zA-Z]+" title="Village Name should only contain letters." required>
     </div>
   </div>
     <div class="row">
@@ -364,7 +364,7 @@
       <label for="City">City</label>
     </div>
     <div class="col-75">
-      <input type="text" id="City" name="City" placeholder="Your City name.." required>
+      <input type="text" id="City" name="City" placeholder="Your City name.." maxlength="50" size="30" pattern="[a-zA-Z]+"  title="City Name should only contain letters." required>
     </div>
   </div>
     <div class="row">
@@ -372,7 +372,7 @@
       <label for="State">State</label>
     </div>
     <div class="col-75">
-      <input type="text" id="State" name="State" placeholder="Your State name.." required>
+      <input type="text" id="State" name="State" placeholder="Your State name.." maxlength="50" size="30" pattern="[a-zA-Z]+" title="State Name should only contain letters." required>
     </div>
   </div>
     <div class="row">
@@ -380,7 +380,7 @@
       <label for="pin">Pin Code</label>
     </div>
     <div class="col-75">
-      <input type="text" id="PinCode" name="PinCode" placeholder="Your Pin code.." maxlength="06" size="30" pattern="[0-9]{06}" required>
+      <input type="text" id="PinCode" name="PinCode" placeholder="Your Pin code.." maxlength="06" size="30" pattern="[0-9]{06}" title="postal code should only contain only number. e.g 123456" required>
     </div>
   </div>
     <div class="row">
@@ -395,117 +395,64 @@
     <input type="reset" value="Clear">
   </div>
   </form>
-				<!-- Form End ---->
+  <!-- Form End ---->
 </div>	
-					<div class="client_text">
-                        <img class="img-circle" src="images/testimonial-4.jpg" alt="">
-                        <a class="client_name" href="#">Emran Khan</a>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                        <a class="control button_all" href="#"><i class="fa fa-long-arrow-left" aria-hidden="true"></i> Construction Data Company</a>
-                        <a class="control button_all" href="#">Best Construction Management <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
-                    </div>
-                    <div class="comment_area">
-                        <h3>2 Comment</h3>
-                        <div class="media">
-                            <div class="media-left">
-                                <a href="#">
-                                    <img class="media-object" src="images/testimonial-4.jpg" alt="">
-                                </a>
-                            </div>
-                            <div class="media-body">
-                                <a class="media-heading" href="#">Emran Khan</a>
-                                <h5>Oct 18, 2016</h5>
-                                <p>Curabitur eleifend mattis velit, gravida posuere mauris dapibus non.</p>
-                                <a class="reply" href="#">Reply</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="comment_area reply_comment">
-                        <div class="media">
-                            <div class="media-left">
-                                <a href="#">
-                                    <img class="media-object" src="images/testimonial-1.jpg" alt="">
-                                </a>
-                            </div>
-                            <div class="media-body">
-                                <a class="media-heading" href="#">Prodip Ghosh</a>
-                                <h5>Oct 18, 2016</h5>
-                                <p>Curabitur eleifend mattis velit, gravida posuere mauris dapibus non.</p>
-                                <a class="reply" href="#">Reply</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="post_comment">
-                        <h3>Post A Comment</h3>
-                        <form class="comment_box">
-                           <div class="col-md-6">
-                               <h4>Name</h4>
-                               <input type="text" class="form-control input_box" id="fullname" placeholder="">
-                           </div>
-                           <div class="col-md-6">
-                               <h4>Email</h4>
-                               <input type="text" class="form-control input_box" id="email" placeholder="">
-                           </div>
-                           <div class="col-md-12">
-                               <h4>Your Comment</h4>
-                               <textarea class="form-control input_box" placeholder=""></textarea>
-                               <button type="submit">Post Comment</button>
-                           </div>
-                        </form>
-                    </div>
-                </div>
+<!---comment area--->
+</div><br/>
+					
+
                 <div class="col-sm-4 widget_area">
                     <div class="resent">
                         <h3>RECENT POSTS</h3>
                         <div class="media">
                             <div class="media-left">
-                                <a href="#">
-                                    <img class="media-object" src="images/blog/rs-1.jpg" alt="">
+                                <a href="https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/prevention.html">
+                                    <img class="media-object" src="images/blog/rs1.jpg" alt="">
                                 </a>
                             </div>
                             <div class="media-body">
-                                <a href="">Get informed about construction industry trends &amp; development.</a>
-                                <h6>Oct 19, 2016</h6>
+                                <a href="">CDC Launches New Weekly COVID-19 Surveillance Report.</a>
+                                <h6>April 05, 2020</h6>
                             </div>
                         </div>
                         <div class="media">
                             <div class="media-left">
-                                <a href="#">
-                                    <img class="media-object" src="images/blog/rs-2.jpg" alt="">
+                                <a href="https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/prevention.html">
+                                    <img class="media-object" src="images/blog/rs2.jpg" alt="">
                                 </a>
                             </div>
                             <div class="media-body">
-                                <a href="">Get informed about construction industry trends &amp; development.</a>
-                                <h6>Oct 19, 2016</h6>
+                                <a href="">The best way to prevent illness is to avoid being exposed to this virus.</a>
+                                <h6>April 03, 2020</h6>
                             </div>
                         </div>
                         <div class="media">
                             <div class="media-left">
-                                <a href="#">
-                                    <img class="media-object" src="images/blog/rs-3.jpg" alt="">
+                                <a href="https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/prevention.html">
+                                    <img class="media-object" src="images/blog/rs3.jpg" alt="">
                                 </a>
                             </div>
                             <div class="media-body">
-                                <a href="">Get informed about construction industry trends &amp; development.</a>
-                                <h6>Oct 19, 2016</h6>
+                                <a href="">Avoid touching your eyes, nose, and mouth with unwashed hands.</a>
+                                <h6>March 26, 2020</h6>
                             </div>
                         </div>
                     </div>
                     <div class="resent">
                         <h3>CATEGORIES</h3>
                         <ul class="architecture">
-                            <li><a href="#"><i class="fa fa-arrow-right" aria-hidden="true"></i>Construction</a></li>
-                            <li><a href="#"><i class="fa fa-arrow-right" aria-hidden="true"></i>Architecture</a></li>
-                            <li><a href="#"><i class="fa fa-arrow-right" aria-hidden="true"></i>Building</a></li>
-                            <li><a href="#"><i class="fa fa-arrow-right" aria-hidden="true"></i>Design</a></li>
+                            <li><a href="https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/index.html"><i class="fa fa-arrow-right" aria-hidden="true"></i>Symptoms & Testing</a></li>
+                            <li><a href="https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/index.html"><i class="fa fa-arrow-right" aria-hidden="true"></i>Prevent Getting Sick</a></li>
+                            <li><a href="https://www.cdc.gov/coronavirus/2019-ncov/daily-life-coping/index.html"><i class="fa fa-arrow-right" aria-hidden="true"></i>Daily Life and Coping</a></li>
+                            <li><a href="https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/index.html"><i class="fa fa-arrow-right" aria-hidden="true"></i>Cases & Latest Updates</a></li>
                         </ul>
                     </div>
                     <div class="resent">
                         <h3>ARCHIVES</h3>
                         <ul class="architecture">
-                            <li><a href="#"><i class="fa fa-arrow-right" aria-hidden="true"></i>February 2016</a></li>
-                            <li><a href="#"><i class="fa fa-arrow-right" aria-hidden="true"></i>April 2016</a></li>
-                            <li><a href="#"><i class="fa fa-arrow-right" aria-hidden="true"></i>June 2016</a></li>
+                            <li><a href="#"><i class="fa fa-arrow-right" aria-hidden="true"></i>April 2020</a></li>
+                            <li><a href="#"><i class="fa fa-arrow-right" aria-hidden="true"></i>February 2020</a></li>
+                            <li><a href="#"><i class="fa fa-arrow-right" aria-hidden="true"></i>June 2019</a></li>
                         </ul>
                     </div>
                     <div class="search">
@@ -514,12 +461,11 @@
                     <div class="resent">
                         <h3>Tag</h3>
                         <ul class="tag">
-                            <li><a href="#">PAINTING</a></li>
-                            <li><a href="#">CONSTRUCTION</a></li>
-                            <li><a href="#">Architecture</a></li>
-                            <li><a href="#">Building</a></li>
-                            <li><a href="#">Design</a></li>
-                            <li><a href="#">Design</a></li>
+                            <li><a href="#">Latest updates</a></li>
+                            <li><a href="#">Coronavirus</a></li>
+                            <li><a href="#">Symptoms</a></li>
+                            <li><a href="#">Covid-19 Cases </a></li>
+                            <li><a href="#">Daily Life</a></li>  
                         </ul>
                     </div>
                 </div>
@@ -705,5 +651,7 @@ document.write(" Copyright 2020 Tmbsbavan Designed by Vishal Joshi. All rights r
     <script src="vendors/stellar/jquery.stellar.js"></script>
     <!-- Theme JS -->
     <script src="js/theme.js"></script>
+	<!-- Sweet alert JS -->
+
 </body>
 </html>

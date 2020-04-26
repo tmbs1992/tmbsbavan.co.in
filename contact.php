@@ -136,11 +136,11 @@
                 <div class="col-sm-6 contact_info send_message">
                     <h2>Send Us a Message</h2>
                     <form method="post" action="./server/touch.php" class="form-inline contact_box">
-                        <input type="text" name="first_name" maxlength="50"  pattern="[a-zA-Z]+"  class="form-control input_box" placeholder="First Name *">
-                        <input type="text" name="last_name" maxlength="50"   pattern="[a-zA-Z]+"  class="form-control input_box" placeholder="Last Name *">
-                        <input type="text" name="email" maxlength="50" size="30" pattern="[^ @]*@[^ @]*" class="form-control input_box" placeholder="Your Email *">
-                        <input type="text" name="phone" maxlength="10" size="30" pattern="[0-9]{10}" class="form-control input_box" placeholder="Phone Number">
-                        <textarea name="comments" maxlength="1000" cols="25" rows="6" class="form-control input_box" placeholder="Message"></textarea>
+                        <input type="text" name="first_name" maxlength="50"  pattern="[a-zA-Z]+"  class="form-control input_box" placeholder="First Name *" title="First Name should only contain letters. e.g. john" required>
+                        <input type="text" name="last_name" maxlength="50"   pattern="[a-zA-Z]+"  class="form-control input_box" placeholder="Last Name *" title="Last Name should only contain letters. e.g. cena" required>
+                        <input type="text" name="email" maxlength="50" size="30" pattern="[^ @]*@[^ @]*" class="form-control input_box" placeholder="Your Email *" title=" Please include an'@' in the email address. e.g. john@gmail.com" required>
+                        <input type="text" name="phone" maxlength="10" size="30" pattern="[0-9]{10}" class="form-control input_box" placeholder="Phone Number" title="Phone Number should only contain Number. e.g. 1111111111" required>
+                        <textarea name="comments" maxlength="1000" cols="25" rows="6" class="form-control input_box" placeholder="Message" required></textarea>
                         <button type="submit" value="submit" name="submit" class="btn btn-default">Send Message</button>
                     </form>
                 </div>

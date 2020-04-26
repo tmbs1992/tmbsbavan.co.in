@@ -1,12 +1,8 @@
-
-<?php include '../server/config.php'; ?>
+<?php include '../server/promo.php'; ?>
 
 <?php
-
- if(isset($_POST['submit']))
- {
+ 
 // create a variable
-
 $first_name=$_POST['first_name'];
 $last_name=$_POST['last_name'];
 $Brahmin=$_POST['Brahmin'];
@@ -22,31 +18,16 @@ $State=$_POST['State'];
 $PinCode=$_POST['PinCode'];
 
 //Execute the query
-$sql="INSERT INTO register(first_name,last_name,Brahmin,Birth_date,Gothra,Gender,email,password,Phone,Village,City,State,PinCode) 
-									VALUES (:first_name,:last_name,:Brahmin,:Birth_date,:Gothra,:Gender,:email,:password,:Phone,:Village,:City,:State,:PinCode)";
-$query = $dbh->prepare($sql);
-$query->bindParam(':first_name',$first_name,PDO::PARAM_STR);
-$query->bindParam(':last_name',$last_name,PDO::PARAM_STR);
-$query->bindParam(':Brahmin',$Brahmin,PDO::PARAM_STR);
-$query->bindParam(':Birth_date',$Birth_date,PDO::PARAM_STR);
-$query->bindParam(':Gothra',$Gothra,PDO::PARAM_STR);
-$query->bindParam(':Gender',$Gender,PDO::PARAM_STR);
-$query->bindParam(':email',$email,PDO::PARAM_STR);
-$query->bindParam(':password',$password,PDO::PARAM_STR);
-$query->bindParam(':phone',$phone,PDO::PARAM_STR);
-$query->bindParam(':Village',$Village,PDO::PARAM_STR);
-$query->bindParam(':City',$City,PDO::PARAM_STR);
-$query->bindParam(':State',$State,PDO::PARAM_STR);
-$query->bindParam(':PinCode',$PinCode,PDO::PARAM_STR);				
-$query->execute();
-$lastInsertId = $dbh->lastInsertId();
-if($lastInsertId)
-{
-	echo "Thank you for contacting us";		  
+ 
+ 
+mysqli_query($connect,"INSERT INTO register (first_name,last_name,Brahmin,Birth_date,Gothra,Gender,email,password,Phone,Village,City,State,PinCode)
+		        VALUES ('$first_name','$last_name','$Brahmin','$Birth_date','$Gothra','$Gender','$email','$password','$Phone','$Village','$City','$State','$PinCode')");
+				
+	if(mysqli_affected_rows($connect) > 0){
+	      echo"<script>alert('Registration Successful');
+		  window.location.href = '../index.php';</script>";
+} else {
+	echo"<script>alert('Something went wrong. Please try again');
+	window.location.href = '../Register.php';</script>";
+	echo mysqli_error ($connect);
 }
-else 
-{
-	echo "Something went wrong. Please try again";
-}
-}
-?>
